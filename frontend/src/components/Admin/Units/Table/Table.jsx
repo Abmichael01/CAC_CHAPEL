@@ -50,7 +50,7 @@ const UnitsPage = () => {
       cell: ({ row }) => (
         <button 
           onClick={() => handleUnitClick(row.original)}
-          className="text-blue-600 hover:underline"
+          className="text-muted-foreground"
         >
           {row.getValue('title')}
         </button>

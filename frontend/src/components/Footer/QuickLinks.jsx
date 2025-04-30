@@ -4,19 +4,19 @@ import { Link } from 'react-router-dom'
 const links = [
     {
         name: "Home",
-        link: "#"
+        link: "/"
     },
     {
         name: "About Us",
-        link: "#"
+        link: "/about-us"
     },
     {
-        name: "Information Center",
-        link: "#"
+        name: "Blog",
+        link: "/blog"
     },
     {
-        name: "Events",
-        link: "#"
+        name: "Sermon",
+        link: "/sermons"
     },
     {
         name: "Give",
